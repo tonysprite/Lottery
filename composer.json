@@ -1,0 +1,19 @@
+{
+    "name": "tonysprite/lottery",
+    "description": "try to provide lottery number trend suggestions",
+    "type": "project",
+    "authors": [
+        {
+            "name": "tonysprite",
+            "email": "catchyouhand@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4":{
+            "Lottery\\":"src/"
+        }
+    }
+}
